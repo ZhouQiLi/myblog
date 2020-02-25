@@ -6,6 +6,6 @@
 
 Clang-Tidy可能会有以下报错:
 
-![avatar]("images/page1.png")
+![avatar](images/page1.png)
 
 意思是对有符号数做位操作, 因为Clang-Tidy的静态检查比较严谨, 位操作数必须是无符号数, 包括常量。所以32要改成32U。
